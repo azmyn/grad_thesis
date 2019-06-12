@@ -1,4 +1,4 @@
-df=read.table("/Users/azumi/Dropbox/Labs/8semester/grad_thesis/grad_source/lasso/crime.txt", sep="")
+df=read.table("/Users/*****/Dropbox/Labs/8semester/grad_thesis/grad_source/lasso/crime.txt", sep="")
 X = scale(df[,3:7])
 y = scale(df[,1])
 
